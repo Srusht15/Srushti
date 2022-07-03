@@ -1,4 +1,4 @@
 import datetime
 now = datetime.datetime.now()
-print ("Current time : ")
-print (now.strftime("%H:%M:%S"))
+print ("Current time,date & day : ")
+print (now.strftime("%H:%M:%S, %m/%d/%Y - %A"))
